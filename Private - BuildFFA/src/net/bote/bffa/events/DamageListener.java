@@ -80,7 +80,7 @@ public class DamageListener implements Listener {
 					e.setCancelled(false);
 				}
 			}
-		} else if(e.getEntity() instanceof Villager && e.getDamager() instanceof Player) {
+		} else if(e.getEntity() instanceof Village) {
 			Villager v = (Villager) e.getEntity();
 			Player dmg = (Player)e.getDamager();
 			if(v.getCustomName().equals("§a§l➜Inventarsortierung")) {
