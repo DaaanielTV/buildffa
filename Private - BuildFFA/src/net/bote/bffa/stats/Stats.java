@@ -82,7 +82,7 @@ public class Stats {
 	  {
 	    if (MySQL.playerExists(uuid))
 	    {
-	      Main.mysql.update("UPDATE StatsAPI SET DEATHS= '" + deaths + "' WHERE UUID= '" + uuid + "';");
+	      Main.mysql.update("UPDATE BFFAStats SET DEATHS= '" + deaths + "' WHERE UUID= '" + uuid + "';");
 	    }
 	    else
 	    {
