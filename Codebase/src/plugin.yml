@@ -1,0 +1,31 @@
+name: BuildFFA
+version: 1.0.1
+main: net.bote.bffa.main.Main
+api-version: '1.21'
+author: bote100
+description: A Build Free-For-All minigame plugin
+
+commands:
+  setname:
+    description: Set the map name
+    permission: bffa.admin.setname
+  setspawn:
+    description: Set the spawn location
+    permission: bffa.admin.setspawn
+  build:
+    description: Toggle build mode
+    permission: bffa.admin.build
+  setheight:
+    description: Set the void death height
+    permission: bffa.admin.setheight
+  stats:
+    description: View player statistics
+  setvillager:
+    description: Set the inventory sorting villager
+    permission: bffa.admin.villager
+  teaming:
+    description: Configure teaming settings
+    permission: bffa.admin.teaming
+  bffa:
+    description: Main plugin command
+    permission: bffa.admin.help

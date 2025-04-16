@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/net/bote/bffa/commands/CMD_setvillager.java=UTF-8
+encoding//src/net/bote/bffa/events/BasicEvents.java=UTF-8
+encoding//src/net/bote/bffa/events/ChatListener.java=UTF-8
+encoding//src/net/bote/bffa/events/DamageListener.java=UTF-8
+encoding//src/net/bote/bffa/events/GameListener.java=UTF-8
+encoding//src/net/bote/bffa/events/InvSortListener.java=UTF-8
+encoding//src/net/bote/bffa/main/Main.java=UTF-8
+encoding//src/net/bote/bffa/utils/Config.java=UTF-8
+encoding//src/net/bote/bffa/utils/Utils.java=UTF-8
